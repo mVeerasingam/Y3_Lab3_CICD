@@ -4,7 +4,9 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class EmailService {
-    public void sendEmail(String to, String message){
+    public String sendEmail(String name, String email){
+
         // code to send email
+        return "Welcome " + name + ". Email: " + email;
     }
 }

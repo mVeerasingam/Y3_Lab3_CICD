@@ -17,6 +17,4 @@ public class UserController {
                           @PathVariable String email){
         return us.registerUser(name,email);
     }
-
-
 }

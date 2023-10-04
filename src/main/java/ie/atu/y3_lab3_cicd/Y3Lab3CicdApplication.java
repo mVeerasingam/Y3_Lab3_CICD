@@ -1,4 +1,4 @@
-package com.example.y3_lab3_cicd;
+package ie.atu.y3_lab3_cicd;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

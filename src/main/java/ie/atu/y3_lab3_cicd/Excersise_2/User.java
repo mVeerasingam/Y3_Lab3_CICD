@@ -1,4 +1,4 @@
-package ie.atu.y3_lab3_cicd;
+package ie.atu.y3_lab3_cicd.Excersise_2;
 
 // post mapping done here
 import lombok.AllArgsConstructor;

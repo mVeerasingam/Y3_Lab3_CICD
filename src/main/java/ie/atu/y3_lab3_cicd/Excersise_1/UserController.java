@@ -1,4 +1,4 @@
-package ie.atu.y3_lab3_cicd;
+package ie.atu.y3_lab3_cicd.Excersise_1;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

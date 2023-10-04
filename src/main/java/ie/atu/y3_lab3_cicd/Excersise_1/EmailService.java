@@ -1,4 +1,4 @@
-package ie.atu.y3_lab3_cicd;
+package ie.atu.y3_lab3_cicd.Excersise_1;
 
 import org.springframework.stereotype.Service;
 

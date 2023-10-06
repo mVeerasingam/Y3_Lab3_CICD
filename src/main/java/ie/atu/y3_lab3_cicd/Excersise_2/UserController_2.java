@@ -4,6 +4,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
+// Example Code to help understand @ResponseBody and @PostMapping, code method implemented in
+// UserController
 @RestController
 @RequestMapping("/test")
 public class UserController_2 {

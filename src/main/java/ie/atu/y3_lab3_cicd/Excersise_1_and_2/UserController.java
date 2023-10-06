@@ -1,6 +1,5 @@
-package ie.atu.y3_lab3_cicd.Excersise_1;
+package ie.atu.y3_lab3_cicd.Excersise_1_and_2;
 
-import ie.atu.y3_lab3_cicd.Excersise_2.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

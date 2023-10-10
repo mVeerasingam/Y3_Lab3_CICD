@@ -1,4 +1,4 @@
-package ie.atu.y3_lab3_cicd.Excersise_1;
+package ie.atu.y3_lab3_cicd.Excersise_1_and_2;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

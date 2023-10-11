@@ -10,7 +10,6 @@ import java.util.ArrayList;
 @RequestMapping("/library")
 public class LibraryController {
     private LibraryService libraryService;
-
     @Autowired
     public LibraryController(LibraryService libraryService) {
         this.libraryService = libraryService;
@@ -23,8 +22,8 @@ public class LibraryController {
 
     @PostMapping("/addBook")
     @ResponseStatus(HttpStatus.CREATED)
-    public void addBook(@RequestBody Book book){
+    public Object addBook(@RequestBody Book book){
         libraryService.addBook(book);
-        System.out.println(book);
+        return libraryService.getBook();
     }
 }

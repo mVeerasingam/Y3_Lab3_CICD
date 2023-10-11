@@ -12,8 +12,7 @@ public class LibraryService {
     public void addBook(Book book){
         bookArrayList.add(book);
     }
-
-    public static ArrayList<Book> getBook() {
+    public ArrayList<Book> getBook() {
         return bookArrayList;
     }
 }
